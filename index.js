@@ -3,7 +3,7 @@ import { Client, IntentsBitField } from 'discord.js';
 import fetch from 'node-fetch';
 import express from 'express';
 
-const token = process.env.DISCORD_BOT_TOKEN;
+const token = process.env.DISCORD_TOKEN;
 const guildId = process.env.GUILD_ID;
 const subscribedRoleId = process.env.SUBSCRIBED_ROLE_ID;
 const secretToken = process.env.BOT_SECRET_TOKEN; // A secret token you set
